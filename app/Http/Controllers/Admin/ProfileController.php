@@ -1,5 +1,5 @@
 <?php
-//課題４のターミナルで実行したコマンド：$ php artisan make:controller Admin/ProfileController
+//課題４のターミナルで実行したコマンド： $ php artisan make:controller Admin/ProfileController
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
