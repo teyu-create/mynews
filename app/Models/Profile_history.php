@@ -7,10 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Profile_history extends Model
 {
-
-    protected $table = 'profilehistories';
-
     use HasFactory;
+    
+    protected $table = 'profilehistories';
 
     protected $guarded = array('id');
 
