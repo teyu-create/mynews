@@ -28,7 +28,7 @@
                     </div>
                     <div class="form-group row">
                         <label class="col-md-2">性別</label>
-                        <div class="col-md-1">
+                        <div class="col-2">
                             <input type="text" class="form-control" name="gender" value="{{ old('gender') }}">
                         </div>
                     </div>
