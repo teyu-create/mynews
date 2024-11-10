@@ -2,6 +2,9 @@
 
 @section('content')
     <div class="container">
+        <div class="text-center">
+          <p class="display-4"><span style="font-style:italic;">ニュース一覧</span></p>
+        </div>
         <hr color="#c0c0c0">
         @if (!is_null($headline))
             <div class="row">
