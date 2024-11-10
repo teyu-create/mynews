@@ -19,7 +19,7 @@ class ProfileController extends Controller
         }
 
         // profile/index.blade.php ファイルを渡している
-        // また View テンプレートに headline、 posts、という変数を渡している
-        return view('profile.index', ['headline' => $headline, 'posts' => $posts]);
+        // また View テンプレートに headlineという変数を渡している
+        return view('profile.index', ['headline' => $headline]);
     }
 }
